@@ -2,7 +2,7 @@
 * {
     /* margin: 0;
     padding: 0; */
-     /*border: 1px solid red;*/
+     border: 1px solid red;
 
 
     box-sizing: border-box;
@@ -20,7 +20,15 @@ body {
     margin: 100px 10px 100px 10px;
     font-family: contentFont, serif;
     font-size: 24px;
+}
 
+.people_wrapper{
+
+    background-image: url("../img/big_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: green;
 
 }
 
@@ -161,7 +169,7 @@ a:hover {
     flex-wrap: nowrap;
     padding: 10px;
     justify-content: space-evenly;
-    font-family: buttonFont;
+    font-family: buttonFont, serif;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
@@ -199,7 +207,7 @@ form{
     text-shadow: black 0 0 3px;
     box-shadow: red 0 0 1px;
     /* outline: rgba(0, 255, 255, 0.5); */
-    font-family: buttonFont;
+    font-family: buttonFont, serif;
     font-size: 20px;
 }
 
@@ -245,6 +253,7 @@ footer {
     margin: auto;
     max-width: 1200px;
     font-size: 20px;
+
 
 }
 
